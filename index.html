@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050507">
+  <meta name="description" content="A cinematic scrolling Apple vs Galaxy S26 Ultra fan comparison website.">
+  <title>Apple vs Galaxy S26 Ultra — The Ultimate Battle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="nav">
+    <a class="brand" href="#top">A<span>×</span>G</a>
+    <nav>
+      <a href="#battle">Battle</a>
+      <a href="#camera">Camera</a>
+      <a href="#power">Power</a>
+      <a href="#verdict">Verdict</a>
+    </nav>
+    <button class="sound-btn" id="soundBtn" aria-label="Toggle ambient sound">♪</button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-orb orb-a"></div><div class="hero-orb orb-b"></div>
+      <p class="eyebrow reveal">THE 2026 FLAGSHIP SHOWDOWN</p>
+      <h1 class="hero-title">
+        <span class="line reveal">APPLE</span>
+        <span class="vs reveal">VS</span>
+        <span class="line galaxy reveal">GALAXY</span>
+      </h1>
+      <p class="hero-copy reveal">Two ecosystems. Two philosophies. One question:<br><strong>who deserves your pocket?</strong></p>
+      <a class="scroll-cue reveal" href="#battle"><span></span>SCROLL TO ENTER THE BATTLE</a>
+    </section>
+
+    <section class="battle" id="battle">
+      <div class="section-label">01 / THE FACE-OFF</div>
+      <div class="phones-stage">
+        <div class="phone phone-apple" data-depth="0.18">
+          <div class="phone-frame">
+            <div class="screen apple-screen">
+              <div class="dynamic-island"></div>
+              <div class="screen-glow"></div>
+              <div class="screen-text">PRO<br><b>MAX</b></div>
+            </div>
+          </div>
+          <span class="phone-caption">iPhone<br><b>PRO MAX</b></span>
+        </div>
+        <div class="phone phone-galaxy" data-depth="0.28">
+          <div class="phone-frame">
+            <div class="screen galaxy-screen">
+              <div class="punch-hole"></div>
+              <div class="screen-text">ULTRA<br><b>S26</b></div>
+            </div>
+          </div>
+          <span class="phone-caption">Galaxy<br><b>S26 ULTRA</b></span>
+        </div>
+        <div class="vs-badge">VS</div>
+      </div>
+      <div class="split-copy">
+        <article class="copy-card apple-card">
+          <span>APPLE</span>
+          <h2>Beautiful.<br>Controlled.</h2>
+          <p>A tightly integrated ecosystem where hardware, software and services are designed to feel like one product.</p>
+        </article>
+        <article class="copy-card galaxy-card">
+          <span>SAMSUNG</span>
+          <h2>Bold.<br>Limitless.</h2>
+          <p>A power-user approach built around a huge canvas, deep customization and an unapologetically feature-packed experience.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="statement">
+      <div class="statement-inner">
+        <p class="eyebrow">THE CONTROVERSIAL TAKE</p>
+        <h2>Apple isn't <em>bad.</em><br>It may just be<br><span>too comfortable.</span></h2>
+      </div>
+    </section>
+
+    <section class="feature" id="camera">
+      <div class="section-label">02 / CAMERA</div>
+      <div class="feature-grid">
+        <div class="feature-title">
+          <p class="eyebrow">SEE MORE</p>
+          <h2>THE CAMERA<br><span>WAR.</span></h2>
+          <p>Samsung's Ultra philosophy pushes the camera experience toward versatility and creative control. Apple answers with a more tightly tuned, point-and-shoot approach.</p>
+        </div>
+        <div class="lens-visual">
+          <div class="lens l1"></div><div class="lens l2"></div><div class="lens l3"></div>
+          <div class="lens-core"></div>
+          <span class="lens-label">ULTRA<br>VISION</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="metrics" id="power">
+      <div class="section-label">03 / THE SCOREBOARD</div>
+      <div class="metrics-head">
+        <p class="eyebrow">FAN COMPARISON</p>
+        <h2>Where the<br><span>Ultra flexes.</span></h2>
+      </div>
+      <div class="metric-list">
+        <div class="metric">
+          <div><span>DISPLAY EXPERIENCE</span><b>GALAXY</b></div>
+          <div class="bar"><i style="--w: 92%"></i></div>
+        </div>
+        <div class="metric">
+          <div><span>CUSTOMIZATION</span><b>GALAXY</b></div>
+          <div class="bar"><i style="--w: 96%"></i></div>
+        </div>
+        <div class="metric">
+          <div><span>ECOSYSTEM</span><b>APPLE</b></div>
+          <div class="bar"><i style="--w: 91%"></i></div>
+        </div>
+        <div class="metric">
+          <div><span>CREATOR WORKFLOW</span><b>APPLE</b></div>
+          <div class="bar"><i style="--w: 89%"></i></div>
+        </div>
+        <div class="metric">
+          <div><span>POWER-USER FEATURES</span><b>GALAXY</b></div>
+          <div class="bar"><i style="--w: 94%"></i></div>
+        </div>
+      </div>
+      <p class="disclaimer">Illustrative fan-made scoring — not laboratory measurements or an official Samsung/Apple benchmark.</p>
+    </section>
+
+    <section class="reveal-section">
+      <div class="giant-word" data-parallax="0.12">WHY</div>
+      <div class="giant-word accent" data-parallax="0.2">LOSE?</div>
+      <div class="reveal-copy">
+        <p class="eyebrow">THE REAL ANSWER</p>
+        <p>Because “better” depends on what you value. The Ultra attacks the places where some Apple users want more freedom: customization, hardware flexibility, multitasking and an aggressively feature-rich toolkit.</p>
+      </div>
+    </section>
+
+    <section class="verdict" id="verdict">
+      <div class="section-label">04 / FINAL VERDICT</div>
+      <div class="verdict-wrap">
+        <div class="winner-ring"><span>?</span></div>
+        <p class="eyebrow">YOUR MOVE</p>
+        <h2>DON'T BUY<br>THE HYPE.<br><span>BUY YOUR STYLE.</span></h2>
+        <p class="verdict-copy">Choose Apple if you want an ecosystem that stays out of your way. Choose Galaxy Ultra if you want your phone to give you more knobs, more modes and more room to experiment.</p>
+        <div class="choice-row">
+          <button class="choice" data-choice="APPLE">🍎 APPLE</button>
+          <button class="choice" data-choice="GALAXY">◉ GALAXY</button>
+        </div>
+        <p id="choiceResult" class="choice-result">Make your call.</p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="brand">A<span>×</span>G</div>
+      <p>Fan-made concept website • No affiliation with Apple or Samsung.</p>
+      <a href="#top">BACK TO TOP ↑</a>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
